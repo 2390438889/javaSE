@@ -16,10 +16,11 @@ public class FinaliazeTest {
 		}
 	}
 	public static void main(String[] args) {
-		new FinaliazeTest(true).checkin();
 		
-		new FinaliazeTest(true).checkin();
-		
+		{
+			FinaliazeTest finalazeTest=new FinaliazeTest(true);
+		}
+		new FinaliazeTest(true);		
 		//强制进入终结动作，即进入垃圾回收器
 		System.gc();
 	}

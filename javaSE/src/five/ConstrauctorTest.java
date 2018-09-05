@@ -1,4 +1,4 @@
-package oop;
+package five;
 
 /**
  * 尽管可以用this调用一个构造器，但却不能调用第二个

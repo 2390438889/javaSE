@@ -4,6 +4,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="lib/poi-ooxml-3.16.jar"/>
 	<classpathentry kind="lib" path="lib/poi-3.16.jar"/>
+	<classpathentry kind="lib" path="lib/jsoup-case-sensitive-1.9.2.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

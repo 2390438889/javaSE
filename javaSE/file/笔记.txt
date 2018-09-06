@@ -1,2 +1,7 @@
-1.静态导入：import static util.Print.*;
-  功能：导入指定类中所有的静态方法
+1.	静态导入：import static util.Print.*;
+  	功能：导入指定类中所有的静态方法
+  	
+2.	包结构是为了防止类名冲突
+
+3.	package必须是文件只第一句非注释代码
+

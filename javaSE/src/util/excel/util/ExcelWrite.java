@@ -109,7 +109,7 @@ public abstract class ExcelWrite {
     public abstract void toExcel(List list);
 
     //读取Excel中的数据
-    public List readExcel() throws IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
+    private List readExcel() throws IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
         if(sheets>-1){
             List list=new ArrayList();
             Method method;

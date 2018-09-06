@@ -1,0 +1,2 @@
+1.静态导入：import static util.Print.*;
+  功能：导入指定类中所有的静态方法
